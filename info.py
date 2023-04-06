@@ -84,8 +84,8 @@ SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 180))
 SELF_DELETE = is_enabled((environ.get('SELF_DELETE','False')), False)
 
 # Download Tutorial Button #
-DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/LazyDeveloper"
+DOWNLOAD_TEXT_NAME = "📥 For Help Join 📥"
+DOWNLOAD_TEXT_URL = "https://t.me/devils_movie_support"
 
 # Custom Caption Under Button #
 CAPTION_BUTTON = "Get Updates"
