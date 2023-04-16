@@ -69,13 +69,8 @@ async def start(client, message):
                 InlineKeyboardButton(
                     "🤖 Join Updates Channel", url='https://t.me/No_Ban_Here_Hub'
                 )
-            ],
-             [
-                InlineKeyboardButton(
-                    "🦋 Join SUPPORT Group 🦋", url='https://t.me/devils_movie_support'
-                )
             ]
-        ]
+             ]
 
         if message.command[1] != "JOIN":
             try:
